@@ -151,7 +151,7 @@ ul#nav li.current > a{
 }
 ul#nav:hover li.current > a{
 	background:none;
-	color:#d6d5d5;
+	color:#fff;
 }
 ul#nav > li a{
 	padding:5px 10px;
@@ -173,7 +173,7 @@ ul#nav li span{
     z-index:600;
 }
 ul#nav:hover > li:hover > a{
-	color:#d6d5d5;
+	color:#c8c8c8;
 }
 ul#nav > li li{
 	border-left:3px solid;
