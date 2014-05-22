@@ -19,7 +19,7 @@ a{
 }
 
 body{
-	font:62.5%/1.5 "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font:62.5%/1.5 Helvetica,Arial,serif;
 	background:url(images/background4.jpg) center top no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
@@ -29,7 +29,6 @@ body{
 }
 
 #bodypat{
-	background:url(images/bg_pattern.png) repeat;
 	width:100%;
 	height:100%;
 }
@@ -79,7 +78,7 @@ p{
     font-size:1.3em;
 	line-height:1.5em;
 	padding-bottom:20px;
-	font-family:"Helvetica Neue", Arial, Tahoma, sans-serif;
+	font-family:Helvetica,Arial,serif;
 }
 /*----------------------------------------------------------------------------
 Header
@@ -91,7 +90,7 @@ header a{
 header{
 	min-height:100px;
 	margin:0 5px 10px 5px;
-	background:#000;
+	background:#124191;
 }
 #headerlink{
 	float:left;
@@ -100,10 +99,10 @@ header{
 	display:inline;
 	margin:23px 0 0 20px;
 	vertical-align:top;
-	width:60px;
+
 }
 #sitename{
-	font-size:7.2em;
+	font-size:3.2em;
 	color:#fff;
 	line-height:100px;
 	margin-left:20px;
@@ -118,7 +117,7 @@ nav{
 	margin-top:40px;
 }
 #nav a{
-	color:#e5e5e5;
+	color:#fff;
 }
 /*----------------------------Mobile Version--------------------------------*/
 @media all and (max-width:780px) {
@@ -152,7 +151,7 @@ ul#nav li.current > a{
 }
 ul#nav:hover li.current > a{
 	background:none;
-	color:#e5e5e5;
+	color:#d6d5d5;
 }
 ul#nav > li a{
 	padding:5px 10px;
@@ -174,7 +173,7 @@ ul#nav li span{
     z-index:600;
 }
 ul#nav:hover > li:hover > a{
-	color:#fff;
+	color:#d6d5d5;
 }
 ul#nav > li li{
 	border-left:3px solid;
@@ -3388,23 +3387,29 @@ a.jp-restore-screen:hover {
 /*----------------------------------------------------------------------------
 Theme Colours
 ----------------------------------------------------------------------------*/
+.grey{
+	background-color:#333333 !important;
+}
+.greytxt{
+	color:#333333 !important;
+}
 .blue{
-	background-color:#19A2DE !important;
+	background-color:#124191 !important;
 }
 .bluetxt{
-	color:#19A2DE !important;
+	color:#124191 !important;
 }
 .red{
-	background-color:#E61400 !important;
+	background-color:#C12336 !important;
 }
 .redtxt{
-	color:#E61400 !important;
+	color:#C12336 !important;
 }
 .green{
-	background-color:#319A31 !important;
+	background-color:#129D43 !important;
 }
 .greentxt{
-	color:#319A31 !important;
+	color:#129D43 !important;
 }
 .magenta{
 	background-color:#FF0094 !important;
@@ -3442,11 +3447,11 @@ Theme Colours
 .pinktxt{
 	color:#E671B5 !important;
 }
-.mango{
-	background-color:#EF9608 !important;
+.orange{
+	background-color:#FF7E00 !important;
 }
-.mangotxt{
-	color:#EF9608 !important;
+.orange{
+	color:#FF7E00 !important;
 }
 .black{
 	background-color:#000 !important;

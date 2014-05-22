@@ -39,7 +39,7 @@
 <!-- BEGIN HEADER -->
 <header class="clearfix">
 <!-- BEGIN LOGO -->
-<img id="logo" src="images/logo-nd.png" alt="logo"/><span id="sitename">Community</span>
+<a id="headerlink" href="#" title="home"><img id="logo" src="images/nokia_logo_tiny.png" alt="logo"/><span id="sitename">Community</span></a>
 <!-- END LOGO -->
 
 <!-- BEGIN NAVIGATION -->
@@ -80,7 +80,7 @@
 <section id="content-mos" class="centered clearfix">
 <!-- Tile 1 -->
 <a href="#">
-    <div class="tile large live grey">
+    <div class="tile large live mango">
     </span>
             <span class="tile-text">StackOverflow feed</span>
     </div>
@@ -88,8 +88,12 @@
     
 <!-- Tile 2 -->
 <a href="./imaging.html">
-    <div class="tile medium">
-        <img class="live-img" src="images/thresholdFilter.jpg" alt="Threshold Filter" />
+    <div class="tile medium live" data-stops="0,33%,66%,100%" data-speed="750" data-delay="1500">
+    	<div class="live-front">
+        	<img class="live-img" src="images/thresholdFilter.jpg" alt="Threshold Filter" />
+        </div>
+        <div class="live-back lime">
+        </div>
         <span class="tile-cat red">Imaging</span>
     </div>
 </a>
@@ -103,7 +107,7 @@
 
 <!-- Tile 4 -->
 <a href="http://developer.nokia.com/community/wiki/Category:Nokia_X">    
-		<div class="tile small green">
+		<div class="tile small magenta">
         <span class="tile-text">Nokia X</span>
         </div>
 </a>
@@ -117,21 +121,25 @@
     
 <!-- Tile 6 -->
 <a href="https://github.com/Nokia-Developer-Community-Projects/nfc-talk">
-    <div class="tile small">
+    <div class="tile small live" data-mode="flip" data-stops="100%" data-speed="750" data-delay="4000">
+    	<div class="live-front">
+        	<img class="live-img" src="images/NFC_front.png" alt="NFC" />
+        </div>
+        <div class="live-back">
         	<img class="live-img" src="images/NFC_back.png" alt="NFC" />
+        </div>
     </div>
 </a>
 
-<!-- Tile 7 -->
-<a href="#">
-    <div class="tile medium red">
-        <span class="tile-text">A project</span>
-    </div>
-</a>
     
 <!-- END TILE CONTENT -->
 </section><!-- end #content-mos -->
 
+<!-- BEGIN AJAX PAGINATION -->
+<div class="clearfix ajax-pagination">
+<a href="index2.html" class="next"></a>
+</div>
+<!-- END AJAX PAGINATION -->
 
 </section><!-- end #mainpage-mos -->
 

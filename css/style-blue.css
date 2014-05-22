@@ -16,10 +16,10 @@ ul#port-filter li:hover,
 .hl-txt1,
 .hl-txt2,
 .widget #tweeter li a{
-	color:#19a2de;
+	color:#124191;
 }
 .themecolortxt{
-	color:#19a2de !important;
+	color:#124191 !important;
 }
 ul#nav li.back,
 ul#nav > li li,
@@ -33,7 +33,7 @@ ul#nav > li li,
 .page,
 .nextpagelink,
 .table-info ul li{
-	border-color:#19a2de;
+	border-color:#124191;
 }
 .break,
 ul#nav li.current > a,
@@ -58,5 +58,5 @@ ul#port-filter li.filter-current,
 #search-submit:hover,
 #post-meta .tile-sidebar,
 .sidebreak{
-	background-color:#19a2de;
+	background-color:#124191;
 }
