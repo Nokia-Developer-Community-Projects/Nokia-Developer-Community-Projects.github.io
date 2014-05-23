@@ -394,7 +394,7 @@ article ul li{
 }
 .toggle-button:hover,
 .ac-tab:hover{
-	background-color:#fff;
+	background-color:#f2f2f2;
 	cursor:pointer;
 }
 .mainpage .toggle-button{
@@ -3452,6 +3452,12 @@ Theme Colours
 }
 .orange{
 	color:#FF7E00 !important;
+}
+.yellow{
+	background-color:#FFD630 !important;
+}
+.yellowtxt{
+	color:#FFD630 !important;
 }
 .black{
 	background-color:#000 !important;
